@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JEAN PAUL - ASSIGNMET2</title>
+    <link rel="icon" type="jeanpaul-photo/png" href="jeanpaul-photo.png" />
+
+<style>
+
+.list{
+    /* color: blue; */
+    justify-content: left;
+    text-align: left;
+    font-size: 25px;
+    background-color: aliceblue;
+}
+#ol{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    margin: auto;
+    color: maroon;
+
+}
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 10px;
+    color:blue;
+    
+}
+a.s{
+    color: maroon;
+    font-weight: 50px;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid rgb(31, 2, 2);
+    border-radius: 12px;
+    display: inline-flexbox;
+    border-width: 2px;
+    margin: 8px;
+    background-color: rgb(113, 236, 236);
+
+}
+img{
+    image-orientation: flip;
+    border: 10px solid ghostwhite;
+    box-shadow: inset;
+    width: 450px;
+
+
+    .p{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+
+    .video-container {
+        position: relative;
+        width: 500px;
+        height: 200px;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .poster {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('images.jfif') no-repeat center center;
+        background-size: cover;
+        cursor: pointer;
+    }
+}
+
+</style>
+</head>
+<body>
+
+    <a href="index.html" class="s"> HOME </a>
+    <a href="Services.html" class="s"> SERVICES </a>
+    <a href="About.html" class="s"> BOUT US </a>
+    <a href="Blog.html" class="s"> THE BLOG </a>
+    <a href="ContactUs" class="s"> CONTACT US </a>
+    <!--Apply internal style  to HTML list and anchor tag-->
+    <br><br><br>
+    
+    <img src="Square.png" alt="Reach your Destination as you please!"> <marquee behavior="scroll" direction="left"></marquee>
+   
+<h1>
+    Welcome to SQUARE TOURS &amp; TRAVEL AGENCY
+</h1>
+   
+<p>
+    Our comany oparates in five countries in East Africa;<br/>below is a list of countries in which we have offices:
+</p>
+    <ol id="ol">
+        <!--Use of CSS  by calling the Id
+        While list uses class-->
+        <li class="list">Rwanda</li>
+        <li class="list">Tanzania</li>
+        <li class="list">Kenya</li>
+        <li class="list">Burundi</li>
+        <li class="list">Uganda</li>
+    </ol>
+    <H1><p>In Rwanda, we are operating in all 5 provinces of the country,</p></H1>
+    <ul>
+        <!--Use of CSS by name of tag-->
+        <li class="list">KIGALI, in Nyarugenge district, CHIC house</li>
+        <li class="list">EAST, in Rwamagana district, Diamond House - 2<sup>nd</sup> floor</li>
+        <li class="list">WEST, in Rusizi district</li>
+        <li class="list">NORTH, in Musanze district, Milano House - 4<sup>rd</sup> floor</li>
+        <li class="list">SOUTH, in Muhanga District, in Muhanga MODERN Market 1<sup>st</sup> floor</li>
+    </ul>
+    <p>
+        The video below takes you through the summary of who we are and what we have to offer;
+    </p>
+    <a href="Visit.html"><img src="images.jfif" alt="Visit us"></a>
+    <video src="LA PERVENCHE INTRO.mp4" controls width="400px" height="500px"> </video>
+    <audio controls autoplay>
+        <source src="audio.mp3" type="audio/mpeg">
+      </audio>
+      
+      <div class="video-container">
+        <video controls>
+            <source src="NIHO NKIRI BY Annette Murava 4K 2021.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="poster"></div>
+    </div>
+
+</body>
+</html>

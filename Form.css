@@ -1,0 +1,8 @@
+form{ border: 1px solid orange;
+        background-color: aqua;
+        padding-left:10px ;}
+
+        label{color: maroon; font-weight: bold;  }
+        #pass.after{content:"*"; color: red;}
+        #pass{font-style: italic;}
+        #pass :focus{background-color: red;}
